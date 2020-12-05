@@ -1,0 +1,5 @@
+# Not usually used, as annotation is priority.
+
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index

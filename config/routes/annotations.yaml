@@ -1,0 +1,17 @@
+controller_web_front_office:
+    resource: ../../src/Presentation/Web/FrontOffice/Controller/
+    type: annotation
+
+controller_web_back_office:
+    resource: ../../src/Presentation/Web/BackOffice/Controller/
+    type: annotation    
+    prefix: admin
+
+controller_api_rest:
+    resource: ../../src/Presentation/Api/Rest/Controller/
+    type: annotation    
+    prefix: api
+
+kernel:
+    resource: ../../src/Kernel.php
+    type: annotation
